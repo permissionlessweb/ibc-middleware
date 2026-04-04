@@ -35,41 +35,41 @@ default-features = false
 features = ["alloc", "derive"]
 
 [workspace.dependencies.ibc-core-router]
-git = "https://github.com/permissionlessweb/ibc-rs"
+path = "../ibc-rs/ibc-core/ics26-routing"
 default-features = false
 features = ["borsh", "serde"]
 
 [workspace.dependencies.ibc-core-router-types]
-git = "https://github.com/permissionlessweb/ibc-rs"
+path = "../ibc-rs/ibc-core/ics26-routing/types"
 default-features = false
 features = ["borsh", "serde"]
 
 [workspace.dependencies.ibc-core-host-types]
-git = "https://github.com/permissionlessweb/ibc-rs"
+path = "../ibc-rs/ibc-core/ics24-host/types"
 default-features = false
 features = ["borsh", "serde"]
 
 [workspace.dependencies.ibc-core-channel-types]
-git = "https://github.com/permissionlessweb/ibc-rs"
+path = "../ibc-rs/ibc-core/ics04-channel/types"
 default-features = false
 features = ["borsh", "serde"]
 
 [workspace.dependencies.ibc-core-channel]
-git = "https://github.com/permissionlessweb/ibc-rs"
+path = "../ibc-rs/ibc-core/ics04-channel"
 default-features = false
 features = ["borsh", "serde"]
 
 [workspace.dependencies.ibc-primitives]
-git = "https://github.com/permissionlessweb/ibc-rs"
+path = "../ibc-rs/ibc-primitives"
 default-features = false
 features = ["borsh", "serde"]
 
 [workspace.dependencies.ibc-app-transfer-types]
-git = "https://github.com/permissionlessweb/ibc-rs"
+path = "../ibc-rs/ibc-apps/ics20-transfer/types"
 default-features = false
 features = ["borsh", "serde"]
 
 [workspace.dependencies.ibc-testkit]
-git = "https://github.com/permissionlessweb/ibc-rs"
+path = "../ibc-rs/ibc-testkit"
 default-features = false
 features = ["borsh", "serde"]
