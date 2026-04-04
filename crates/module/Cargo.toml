@@ -18,6 +18,6 @@ ibc-core-router.workspace = true
 ibc-primitives.workspace = true
 
 [dev-dependencies]
-ibc-middleware-module-macros = { version = "0.2.0", path = "../module-macros" }
+ibc-middleware-module-macros = { git = "https://github.com/permissionlessweb/ibc-middleware", branch = "main" }
 
 ibc-testkit.workspace = true
