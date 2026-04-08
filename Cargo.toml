@@ -13,14 +13,14 @@ readme = "README.md"
 repository = "https://github.com/heliaxdev/ibc-middleware"
 
 [workspace.dependencies]
-ibc-core-router = { path = "../ibc-rs/ibc-core/ics26-routing" }
-ibc-core-router-types = { path = "../ibc-rs/ibc-core/ics26-routing/types" }
-ibc-core-host-types = { path = "../ibc-rs/ibc-core/ics24-host/types" }
-ibc-core-channel-types = { path = "../ibc-rs/ibc-core/ics04-channel/types" }
-ibc-core-channel = { path = "../ibc-rs/ibc-core/ics04-channel" }
-ibc-primitives = { path = "../ibc-rs/ibc-primitives" }
-ibc-app-transfer-types = { path = "../ibc-rs/ibc-apps/ics20-transfer/types" }
-ibc-testkit = { path = "../ibc-rs/ibc-testkit" }
+ibc-core-router = { git = "https://github.com/permissionlessweb/ibc-rs", branch = "zk-mvp" }
+ibc-core-router-types = { git = "https://github.com/permissionlessweb/ibc-rs", branch = "zk-mvp" }
+ibc-core-host-types = { git = "https://github.com/permissionlessweb/ibc-rs", branch = "zk-mvp" }
+ibc-core-channel-types = { git = "https://github.com/permissionlessweb/ibc-rs", branch = "zk-mvp" }
+ibc-core-channel = { git = "https://github.com/permissionlessweb/ibc-rs", branch = "zk-mvp" }
+ibc-primitives = { git = "https://github.com/permissionlessweb/ibc-rs", branch = "zk-mvp" }
+ibc-app-transfer-types = { git = "https://github.com/permissionlessweb/ibc-rs", branch = "zk-mvp" }
+ibc-testkit = { git = "https://github.com/permissionlessweb/ibc-rs", branch = "zk-mvp" }
 
 [workspace.dependencies.dur]
 version = "0.5.3"

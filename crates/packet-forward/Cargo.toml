@@ -17,8 +17,8 @@ unexpected_cfgs = { level = "warn", check-cfg = ["cfg(coverage_nightly)"] }
 borsh = ["dep:borsh"]
 
 [dependencies]
-ibc-middleware-module = { path = "../module" }
-ibc-middleware-module-macros = { path = "../module-macros" }
+ibc-middleware-module = { git = "https://github.com/permissionlessweb/ibc-middleware", branch = "zk-mvp" }
+ibc-middleware-module-macros = { git = "https://github.com/permissionlessweb/ibc-middleware", branch = "zk-mvp" }
 
 borsh = { workspace = true, optional = true }
 dur.workspace = true
